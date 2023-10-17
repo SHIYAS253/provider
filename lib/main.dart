@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_provider/logo.dart';
+import 'package:flutter_application_provider/front.dart';
+
   void main() {
   runApp(MyApp());
 }
@@ -15,7 +16,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyLogo(),
+      home: MyHome(),
     );
   }
 }
